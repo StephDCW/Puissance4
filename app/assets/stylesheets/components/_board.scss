@@ -1,0 +1,17 @@
+.game{
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  width: 70%;
+  height: 600px;
+  background-color: #0029D9;
+}
+
+.case{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
