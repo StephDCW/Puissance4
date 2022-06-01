@@ -12,5 +12,7 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-import "controllers"
-import "bootstrap"
+import "controllers";
+import "bootstrap";
+import Puissance4 from "./game"
+window.Puissance4 = Puissance4
